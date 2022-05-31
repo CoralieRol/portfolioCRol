@@ -1,0 +1,98 @@
+
+/* ==========================================================================
+Contact form
+========================================================================== */
+
+  /******************************************
+   *               Body                     *
+   ******************************************/
+   .formulaire{
+    margin: auto; 
+}
+form{
+    margin:auto ;
+    padding: 20px;
+    border-radius: 10px;
+    width: 550px;
+    background-color: white;  
+    border: 2px solid #161616;
+    display: flex;
+
+}
+
+form h2{
+   font-size: 25px;
+}
+
+form .separation{
+    width:  100%;
+    height: 1px;
+    background-color: #E8B968;
+}
+
+form .corpsform{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+form .corpsform .groupe{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corpsform .left .groupe input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid  #5B696A;
+    outline-color: #E8B968 ;
+    border-radius: 10px;
+}
+
+form .corpsform .left .groupe i{
+    position: relative;
+    left:0;
+    bottom: 32px;
+    padding: 5px 3px;
+    color: #E8B968  ;
+}
+
+form .corpsform .right {
+    margin-left: 60px;
+ 
+}
+
+form .corpsform .right .groupe {
+    height: 100%;   
+}
+
+form .corpsform .right .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    height: 78%;
+    width: 139%;
+    background-color: #f8f8f8;
+    border: 2px solid #E8B968 ;
+    outline:none;
+    border-radius: 5px;
+    resize: none;
+}
+
+form button{
+    background-color:#E8B968;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor:pointer;
+    
+}
+
+form  button:hover{
+    transform: scale(1.05);
+}

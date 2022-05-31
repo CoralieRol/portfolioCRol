@@ -1,0 +1,67 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+button {
+    color: #005341;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #120A25;
+}
+
+.tableau{
+text-align: center;
+width: 100%;
+border: none;
+filter:none;
+}
+
+h2{
+text-align: center;
+margin-top: 5%;
+}
+
+
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+img {
+    width: 45%;
+    margin-top: 2%;
+    filter: drop-shadow(6px 4px 4px #4E4E4E);
+    border: 1px solid #005341;
+}
+
+hr{
+    margin-top: 5%;
+height: 3px;
+background-color: #005341;
+}
+
+.cdc{
+text-decoration: none;
+margin: auto;
+font-size: large;
+text-align: center;
+color: #55AC30;
+}
+
+.cdc:hover{
+color: black;
+}
